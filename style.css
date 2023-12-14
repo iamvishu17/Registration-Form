@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html body {
+    display: grid;
+    height: 100%;
+    place-items: center;
+    margin: 51px;
+    background: #222223;
+
+
+}
+
+.container {
+    width: 700px;
+    height: 645px;
+    border-radius: 17px;
+    padding: 30px;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+}
+
+h2 {
+    font-size: 26px;
+    letter-spacing: 2px;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box1 {
+    width: 50%;
+    padding: 0 10px;
+    margin: 10px 0 0 0;
+}
+
+.box2 {
+    width: 50%;
+    padding: 0 8px;
+    margin: 10px 0 0 0;
+}
+
+.input_box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.input_box input[type="text"],
+.input_box input[type="date"],
+.input_box input[type="numbers"],
+.input_box input[type="email"],
+.input_box input[type="password"] {
+
+    border: 0;
+    outline: none;
+    background-color: #222223;
+    color: rgba(225, 225, 225, 0.7);
+    padding: 10px 10px;
+    border-radius: 3px;
+}
+
+.input_box input[type="text"]::placeholder,
+.input_box input[type="date"]::placeholder,
+.input_box input[type="numbers"]::placeholder,
+.input_box input[type="email"]::placeholder,
+.input_box input[type="password"]::placeholder {
+
+    color: rgba(225, 225, 225, 0.7);
+    /* font-size: 14px; */
+}
+
+.input_box label {
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+h3 {
+    margin-top: 10px;
+    margin-left: 10px;
+    letter-spacing: 1px;
+}
+.radio_box{
+    display: flex;
+    justify-content: space-around;
+}
+button[type="button"] {
+    border: 0;
+    width: 50%;
+   margin-left: 160px;
+   padding: 10px;
+   border-radius: 7px;
+   color: #fff;
+   background-color: #337fdb;
+   font-weight: 600;
+   letter-spacing: 1px;
+   margin-top: 10px;
+
+}
